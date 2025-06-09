@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VibeGraph 📈
 
-## Getting Started
+> "It's so over" / "We're so back" - An animated sine wave visualization of emotional volatility
 
-First, run the development server:
+## 🎯 About
+
+VibeGraph is a minimalist, frontend-only web app that visualizes emotional volatility through an animated sine wave. Inspired by the popular "It's so over / We're so back" meme, it displays a continuously animated graph that gets faster and more chaotic over time, mimicking increasing emotional instability.
+
+## ✨ Features
+
+- **Real-time animated sine wave** that increases in frequency and chaos over time
+- **Responsive design** that works on desktop and mobile devices
+- **Minimalist aesthetic** inspired by Dieter Rams design principles
+- **Interactive mood generation** with a single button click
+- **Visual feedback** with a moving dot that tracks the current emotional state
+- **Auto-reset cycle** every 20 seconds for continuous entertainment
+
+## 🛠 Technologies
+
+- **Next.js 15** with App Router
+- **TypeScript** for type safety
+- **Tailwind CSS v4** for styling
+- **Framer Motion** for smooth animations
+- **SVG** for crisp graph rendering
+
+## 🚀 Getting Started
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the magic happen!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Design Philosophy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Neutral color palette** with paper gray background (#f4f4f4)
+- **Inter font** for clean UI text
+- **JetBrains Mono** for graph labels and technical elements
+- **Subtle animations** that enhance rather than distract
+- **Full-screen centered layout** with no unnecessary chrome
 
-## Learn More
+## 🎮 How It Works
 
-To learn more about Next.js, take a look at the following resources:
+1. The wave starts calm and predictable
+2. Every 3 seconds, frequency and chaos increase
+3. The background subtly shifts as emotions intensify
+4. After 20 seconds, everything resets and starts over
+5. Click "Generate Mood" for a random emotional state
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📱 Responsive Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Graph automatically scales for mobile devices
+- Touch-friendly button sizing
+- Optimized text sizing for different screen sizes
+- Prevents horizontal scrolling
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Built with ❤️ and a healthy dose of emotional instability*
